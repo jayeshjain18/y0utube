@@ -24,7 +24,7 @@ def helloworld():
     b1=b.url
     shortner=pyshorteners.Shortener()
     a11=shortner.tinyurl.short(a1)
-    b11=shortner.tinyurl.short(a1)
+    b11=shortner.tinyurl.short(b1)
     print(a11)
     print(b11)
     #api_key = "17efd5015e4a69d287611d9121378a8fb1068"
