@@ -41,14 +41,18 @@ def helloworld():
     #else:
      #   print("[!] Error Shortening URL:", data)
 
+    a=" {}             \nAudio: {} \nVideo: {} \n@Youtube_audi0_video_bot \n:currently the bot is in development stage please keep using it".format(title,a11,b11)
     response = {
-        "fulfillmentText": "{}                      Audio: {}     Video: {} due to security isssues the link gets invalid in 10 min but you can send me the link again here- @Youtube_audi0_video_bot :currently the bot is in development stage please keep using it".format(title,a11,b11)
+        "fulfillmentText": "{} ".format(a)
     }
+
+
+    print(a)
+
     return jsonify(response)
 
 if __name__ == "__main__":
         app.run(debug=True)
-
 
 
 
